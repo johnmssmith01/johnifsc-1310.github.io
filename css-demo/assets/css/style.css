@@ -1,3 +1,77 @@
-body{
-    background-color: cornflowerblue;
+/* ------Box Sizing------ */
+
+html {
+    box-sizing: border-box;
 }
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* ------Utility Classes------ */
+
+.container{
+    width: 75vw;
+    margin: 30px auto;
+    max-width: 950px;
+}
+
+/* ------Global Styles------ */
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: ;
+    margin:0;
+}
+
+header.primary{
+    background-color:#316fe2;
+    text-align:center;
+    color:#fff;
+    padding: 40px 40px 40px 40px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+header.primary h1{
+    font-size:3.0rem;
+    margin:20px 0;
+    
+}
+
+header.primary h1 a{
+    color:#fff;
+    text-decoration:none;
+}
+
+header.primary h2 {
+    font-size:1.4rem;
+    margin: 25px auto 40px;
+}
+
+header.primary nav{
+    max-width: 960px
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+header.primary nav a{
+    color:#fff;
+    text-decoration:none;
+    background:rgba(0,0,0,.4);
+    padding:8px 16px;
+    border-radius: 10px;
+    transition:0.5s;
+    border:0.5px solid #000;
+}
+
+header.primary nav a:hover, header.primary nav a:active {
+    background:rgba(0,0,0,.8)
+}
+
+header.primary ul{
+    padding:0;
+    list-style-type: none;
+}
+
