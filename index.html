@@ -4,30 +4,45 @@
 <head>
   <meta charset="utf-8">
   <title>IFSC 1310 | John-Michael Smith</title>
-  <meta name="description" content="Keyword Rich Description" />
+  <meta name="description" content="John-Michael Smith's homepage for Web Tech 1" />
   <meta name="author" content="John-Michael Smith" />
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>John-Michael Smith</h1>
-  <nav>
-    <ul>
-        <li><a href="https://cdn.discordapp.com/attachments/709557867237343313/1039472564579356672/image.png">CSS Diner</a></li>        
-        <li><a href="https://cdn.discordapp.com/attachments/709557867237343313/1032249566499713114/unknown.png">Flexbox Froggy</a></li> 
-        <li><a href="https://cdn.discordapp.com/attachments/709557867237343313/1050900030527119472/Untitled-1.png">Gravit Icon</a></li>
-        <li><a href="https://cdn.discordapp.com/attachments/709557867237343313/1050905483495604334/Artboard_1.png">Bear Exercise</a></li>
-        <li><a href="gordo/index.html">Prototype HTML Assignment</a></li>
-        <li><a href="css-demo/index.html">CSS Demo</a></li>
-        <li>Positioning Lab</li>
-          <ul>
-            <li><a href="positioning-lab/float-1.html">Float 1</a></li>
-            <li><a href="positioning-lab/float-2.html">Float 2</a></li>
-            <li><a href="positioning-lab/absolute-1.html">Absolute 1</a></li>
-            <li><a href="positioning-lab/absolute-2.html">Absolute 2</a></li>
+  <section id="central">
+    <h1>IFSC 1310 | John-Michael Smith</h1>
+    <h2>Fall 2022</h2>
+      <h3>Exercises</h3>
+    <nav id="exercises">
+        <p><a href="homepage-imgs/css-diner.png">CSS Diner</a></p>
+        <p><a href="homepage-imgs/flexbox-froggy.png">Flexbox Froggy</a></p>
+        <p><a href="homepage-imgs/gravit-icon.png">Gravit Icon</a></p>
+        <p><a href="homepage-imgs/bear-exercise.png">Bear Exercise</a></p>
+    </nav>
+        <h3>Assignments & Labs</h3>
+    <nav id="aslab">
+        <p><a href="gordo/index.html">Prototype HTML Assignment</a></p>
+        <p><a href="css-demo/index.html">CSS Demo</a></p>
+          <nav id="poslist">
+          <p id="poslisth">Positioning Lab</p>
+            <ul>
+              <li><a href="positioning-lab/float-1.html">Float 1</a></li>
+              <li><a href="positioning-lab/float-2.html">Float 2</a></li>
+              <li><a href="positioning-lab/absolute-1.html">Absolute 1</a></li>
+              <li><a href="positioning-lab/absolute-2.html">Absolute 2</a></li>
           </ul>
-        <li><a href="dragon/index.html">SpaceX Dragon</a></li>
-    </ul>
-  </nav>
+          </nav>
+        <p><a href="slick-demo/index.html">Slick Demo</a></p>
+        <p><a href="dragon/index.html">SpaceX Dragon</a></p>
+        <p><a href="dragon-v2/index.html">SpaceX Dragon v2</a></p>
+    </nav>
+      <h3>Dragon Project Revision & Reflection</h3>
+        <p id="push3">In my first go at the Dragon Project, I never really touched the CSS or implemented all the content (namely the images). So, when I asked friends and family for their feedback, I also presented them with our work on CSS demo to show my current skill ceiling. After that, I got plenty of suggestions to adopt and reskin sections of the CSS Demo into a SpaceX design which I figured would work quite well. If I could do anything differently, I would have spent more time structuring the HTML now that I understand how CSS selectors and IDs work a bit better.</p>
+      <h3>Thoughts on Progressive Enhancement</h3>
+        <p>From my understanding, Progressive Enhancement is a way of development that ensures users with non-mainstream level devices still get all the same content. Websites following progressive enhancement are built from the ground up to ensure all content is accessible by devices. On the other end of the spectrum, Graceful Degradation is starts at the highest level of devices and compatibility/accessibility is only ensured later in development. </p>
+        <p>I believe Progressive Enhancement is a very important path of development. Clients will typically want their content seen before any fanciful gimmicks. Despite how high tech most devices have become, not everyone will have devices capable of javascript gimmicks and what not - with users potentially missing out on swaths of content.</p>
+        <p>Link to the extra article I found: <a href="https://www.youtube.com/watch?v=U38dyJhpUnA">https://www.youtube.com/watch?v=U38dyJhpUnA</a></p>
+  </section>
 </body>
 </html>

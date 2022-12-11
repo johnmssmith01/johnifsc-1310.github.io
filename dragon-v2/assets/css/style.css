@@ -1,0 +1,161 @@
+/* ------Box Sizing------ */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* ------Utility Classes------ */
+.container{
+    width: 75vw;
+    margin: 30px auto;
+    max-width: 950px;
+}
+
+/* ------Responsive Images------ */
+img{
+    max-width:100%;
+}
+
+.img-center{
+    display:block;
+    margin: 10px auto;
+    padding:5px;
+    max-width:30%;
+    height:auto;
+}
+
+.img-center2{
+    display:block;
+    margin: 0px auto;
+    padding-top:10px;
+    max-width:7%;
+    height:auto; 
+}
+
+/* ------Global Styles------ */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: ;
+    margin:0;
+}
+
+header.primary{
+    background-color:#00233B;
+    text-align:center;
+    color:#a7a9ac;
+    padding: 40px 40px 25px 40px;
+}
+
+header.primary h1{
+    font-size:2.0rem;
+    margin:20px 0;
+}
+
+header.primary ul{
+    padding:0;
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    max-width:30%;
+    margin: 10px auto;
+}
+
+header.primary nav a{
+    color:#fff;
+    text-decoration:none;
+    background:rgba(0,0,0,.4);
+    padding:8px 16px;
+    border-radius: 10px;
+    transition:0.5s;
+    border:0.5px solid #000;
+}
+
+header.primary nav a:hover, header.primary nav a:active {
+    background:rgba(0,0,0,.8)
+}
+
+#content h2{
+    color:#005288e2;
+    border-bottom: 1px solid #c0c0c0
+}
+
+#content ul{
+    padding-bottom:15px;
+}
+
+#colophon{
+    background-color:#00233B;
+    text-align:center;
+    color:#a7a9ac;
+
+}
+
+#colophon h6{
+    padding:20px;
+    margin:0;
+    text-align:center;
+    color:#fff;
+}
+
+/* ------Index Page------ */
+#intro h2{
+    color:#005288e2;
+    border-bottom: 1px solid #c0c0c0
+}
+
+/* Customize Previous/Next/Dots/Autoplay */
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: #00233B;
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
+
+/* ------FAQ Page------ */
+
+blockquote{
+    padding-bottom:30px;
+}
+
+/* ------History Page------ */
+table caption{
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+table{
+    width:100%;
+    border: 1px solid #c0c0c0;
+    border-collapse:collapse;
+}
+
+th{
+    border:1px solid #c0c0c0;
+    background-color:#00233B;
+    color:#fff;
+}
+
+tr:nth-child(even) {
+    background-color:#c0c0c0
+}
+
+td{
+    border: 0.3px solid #c0c0c0;
+}
