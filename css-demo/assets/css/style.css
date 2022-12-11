@@ -179,6 +179,43 @@ tr:nth-child(even) {
 
 td{
     border: 0.3px solid #c0c0c0;
+    text-align:right;
+}
+
+td:first-of-type{
+    text-align:left;
+}
+
+#addel ol{
+    list-style-type:lower-roman;
+    list-style-position:inside;
+}
+
+#addel ul ul > li{
+    list-style-type:circle;
+}
+
+#addel dt{
+    font-weight:bold;
+    padding: 12px 5px 0px 0px;
+}
+
+#addel dd{
+    margin:0;
+}
+
+#addel blockquote{
+    background-color:rgba(0,0,0,.1);
+    border:5px double #c0c0c0;
+    border-radius:15px;
+    padding:15px 25px;
+}
+
+#addel cite{
+    display:block;
+    font-weight:bold;
+    font-size:.8rem;
+    text-align:right;
 }
 
 aside[role="complementary"]{
